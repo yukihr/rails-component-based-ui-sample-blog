@@ -1,0 +1,4 @@
+h3 tags
+ul.list-inline
+  - @sidebar_tags.each do |tag|
+    li= link_to tag.name, tag_path(tag.name)
