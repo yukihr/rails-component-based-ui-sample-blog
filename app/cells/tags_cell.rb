@@ -1,6 +1,6 @@
 class TagsCell < Cell::ViewModel
   def show
-    render.html_safe
+    render
   end
 
   private
