@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/apotonick/cells.git
+  revision: 9e3c5791137011a3b30b86e1766a56bf27c4c243
+  specs:
+    cells (4.0.0.alpha1)
+      actionpack (>= 3.2)
+      railties (>= 3.2)
+      tilt (>= 1.4, < 3)
+      uber (~> 0.0.9)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -127,6 +137,7 @@ GEM
       railties (~> 4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uber (0.0.11)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -135,6 +146,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cells!
   coffee-rails (~> 4.0.0)
   faker
   jbuilder (~> 2.0)
